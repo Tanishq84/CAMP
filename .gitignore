@@ -1,0 +1,27 @@
+# Ignore build artifacts
+build/
+dist/
+*.spec
+*.exe
+
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore images (optional if not required on GitHub)
+*.png
+
+# Ignore PDF files
+*.pdf
+
+# Environment files
+.env
+*.env
+
+# VS Code settings (optional)
+.vscode/
